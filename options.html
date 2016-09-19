@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Focus Friend Settings</title></head>
+<body>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<h1 class = "jumbotron">Focus Friend Settings</h1>
+<h2 class>Place the websites you would like to ban on one line, separated by spaces</h2>
+<div>Example: facebook reddit twitter youtube</div>
+
+<textarea id = "bannedList" class="form-control"></textarea>
+<div class="form-group">Select your duration
+<select id = "duration" class="form-control" >
+  <option value=15>15 Minutes</option>
+  <option value=30>30 Minutes</option>
+  <option value=60>60 Minutes</option>
+  <option value=120>120 Minutes</option>
+</select>
+</div>
+
+<div id="status"></div>
+
+<button id="save" class="btn btn-lg btn-primary">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>
